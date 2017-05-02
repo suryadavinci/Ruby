@@ -1,3 +1,10 @@
-num = gets.to_i
-#num=num.to_i
-	puts 5+num
+num = 5
+puts num.methods
+puts num && 1
+
+puts num | 2
+puts num || 2
+
+puts num.send( :|, 2)
+
+#puts num.send( :|,:| , 2)
