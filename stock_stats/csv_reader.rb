@@ -1,3 +1,5 @@
+require 'csv'
+require_relative 'books_in_stock'
 class CsvReader
   def initialize
     @books_in_stock = []
